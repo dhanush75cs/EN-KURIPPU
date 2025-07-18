@@ -3,8 +3,9 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://dhanush75cs.github.io/EN-KURIPPU",
+  "homepage": "https://dhanush75cs.github.io/EN-KURIPPU/",
   "scripts": {
+    "predeploy":"npm run build"
     "deploy":"gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
